@@ -56,7 +56,7 @@ namespace CianLib
             List<string> metro = new List<string>();
             var numberOfItems = int.Parse(doc.DocumentNode.SelectSingleNode("//span[@class='objects_list_title_site_selected']").InnerText);
             var pages = (int)Math.Ceiling(((double)numberOfItems) / 50);
-            for (int i = 1; i <= pages; i++)
+            for (int i = 1; i <= pages; i++ )
             {
                 var newQuery = string.Format("{0}&p={1}", filtredString, i);
                 doc = web.Load(newQuery);
