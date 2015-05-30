@@ -1,0 +1,10 @@
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\bin\Debug\CianLib.dll
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\bin\Debug\CianLib.pdb
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\bin\Debug\Core.dll
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\bin\Debug\Core.pdb
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\obj\Debug\CianLib.csprojResolveAssemblyReference.cache
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\obj\Debug\CianLib.dll
+C:\Users\Татьяна\Documents\Visual Studio 2012\Projects\Diplom\CianLib\obj\Debug\CianLib.pdb
