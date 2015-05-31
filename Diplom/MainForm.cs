@@ -45,5 +45,7 @@ namespace Diplom
             var connector = new CianDataProvider();
             connector.GetData(new SearchFilter());
         }
+
+       
     }
 }

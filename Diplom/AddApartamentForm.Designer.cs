@@ -61,8 +61,8 @@
             this.cbMetroLine = new System.Windows.Forms.ComboBox();
             this.tbTransport = new System.Windows.Forms.TextBox();
             this.tbComments = new System.Windows.Forms.TextBox();
-            this.btnOK = new System.Windows.Forms.Button();
             this.nudArea = new System.Windows.Forms.NumericUpDown();
+            this.btnOK = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudFloor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumFloor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumRooms)).BeginInit();
@@ -340,16 +340,6 @@
             this.tbComments.Size = new System.Drawing.Size(313, 20);
             this.tbComments.TabIndex = 36;
             // 
-            // btnOK
-            // 
-            this.btnOK.Location = new System.Drawing.Point(424, 533);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(84, 29);
-            this.btnOK.TabIndex = 37;
-            this.btnOK.Text = "ОК";
-            this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
-            // 
             // nudArea
             // 
             this.nudArea.Location = new System.Drawing.Point(172, 198);
@@ -357,11 +347,21 @@
             this.nudArea.Size = new System.Drawing.Size(120, 20);
             this.nudArea.TabIndex = 38;
             // 
+            // btnOK
+            // 
+            this.btnOK.Image = global::Diplom.Properties.Resources.button_ok;
+            this.btnOK.Location = new System.Drawing.Point(434, 533);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(51, 29);
+            this.btnOK.TabIndex = 37;
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            // 
             // AddApartamentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 574);
+            this.ClientSize = new System.Drawing.Size(506, 574);
             this.Controls.Add(this.nudArea);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.tbComments);

@@ -34,7 +34,7 @@
             this.lbLogin = new System.Windows.Forms.Label();
             this.lbPassword = new System.Windows.Forms.Label();
             this.btnOk = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbSite = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // tbLogin
@@ -81,33 +81,35 @@
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(216, 160);
+            this.btnOk.Image = global::Diplom.Properties.Resources.button_ok;
+            this.btnOk.Location = new System.Drawing.Point(247, 160);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 23);
+            this.btnOk.Size = new System.Drawing.Size(44, 23);
             this.btnOk.TabIndex = 6;
-            this.btnOk.Text = "ОК";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
-            // textBox1
+            // cbSite
             // 
-            this.textBox1.Location = new System.Drawing.Point(117, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 20);
-            this.textBox1.TabIndex = 7;
+            this.cbSite.FormattingEnabled = true;
+            this.cbSite.Location = new System.Drawing.Point(117, 35);
+            this.cbSite.Name = "cbSite";
+            this.cbSite.Size = new System.Drawing.Size(174, 21);
+            this.cbSite.TabIndex = 7;
             // 
             // AddAccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(326, 195);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(314, 195);
+            this.Controls.Add(this.cbSite);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.lbPassword);
             this.Controls.Add(this.lbLogin);
             this.Controls.Add(this.lbSite);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.tbLogin);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "AddAccountForm";
             this.Text = "Новый аккаунт";
             this.ResumeLayout(false);
@@ -123,6 +125,6 @@
         private System.Windows.Forms.Label lbLogin;
         private System.Windows.Forms.Label lbPassword;
         private System.Windows.Forms.Button btnOk;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbSite;
     }
 }

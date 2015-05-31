@@ -130,6 +130,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="DbApartament.sqlite">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -157,6 +158,60 @@
       <Project>{9a5ec336-b2a5-4fc3-bcd3-5cf4a5018f3f}</Project>
       <Name>Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-item.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect_to_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect_to_database %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket_5397.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img0300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database-Upload.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w48h481337349837Database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6a6822a3-b4a6-45fa-80c1-94a56f2ecee6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3a023987-f999-4243-8725-f08e9fa31905.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_ok.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_save_floppy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbar-save-1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

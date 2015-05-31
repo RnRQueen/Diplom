@@ -18,15 +18,22 @@ namespace Diplom
         public AccountsForm()
         {
            InitializeComponent();
-           DBHelper.Context.Accounts.Load();
-          dgvAccounts.DataSource = DBHelper.Context.Accounts.ToArray();
-          dgvAccounts.Columns[0].Visible = false;
-          dgvAccounts.Columns[3].Visible = false;
+          UpdateDataSource();
         }
 
+        private void UpdateDataSource()
+        {
+            dgvAccounts.AutoResizeColumns();
+            dgvAccounts.DataSource = null;
+            dgvAccounts.DataSource = DBHelper.Context.Accounts.ToArray();
+            dgvAccounts.Columns[0].Visible = false;
+            dgvAccounts.Columns[3].Visible = false;
+            dgvAccounts.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dgvAccounts.Columns["Website"].HeaderText = "Сайт";
+            dgvAccounts.Columns["Login"].HeaderText = "Логин";
 
-       
-    
+        }
+
         private void btnAddAccount_Click(object sender, EventArgs e)
         {
             {
@@ -35,10 +42,7 @@ namespace Diplom
                     f.ShowDialog();
                     this.Show();
                 }
-                dgvAccounts.DataSource = null;
-                dgvAccounts.DataSource = DBHelper.Context.Accounts.ToArray();
-                dgvAccounts.Columns[0].Visible = false;
-                dgvAccounts.Columns[3].Visible = false;
+                UpdateDataSource();
                 
             }
         }
@@ -55,11 +59,15 @@ namespace Diplom
             }
             
             DBHelper.Context.SaveChanges();
-            dgvAccounts.DataSource = null;
-            dgvAccounts.DataSource = DBHelper.Context.Accounts.ToArray();
-            dgvAccounts.Columns[0].Visible = false;
-            dgvAccounts.Columns[3].Visible = false;
+            UpdateDataSource();
             
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            DBHelper.Context.SaveChanges();
+            UpdateDataSource();
+
         }
         }
     

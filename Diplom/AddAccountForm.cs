@@ -15,21 +15,35 @@ namespace Diplom
         public AddAccountForm()
         {
             InitializeComponent();
+            var site = new[] { "www.cian.ru" };
+            cbSite.DataSource = site;
+            
+
         }
 
         private void btnOk_Click(object sender, EventArgs e)
         {
+            
             DBHelper.Context.Accounts.Add(
                new Accounts
                {
-                   Website = textBox1.Text,
+                   Website = cbSite.Text,
                    Login = tbLogin.Text ,
                    Password = tbPassword.Text
                });
             DBHelper.Context.SaveChanges();
             
             Close();
+            
 
         }
+
+       
+        
+           
+       
+
+        
+      
     }
 }

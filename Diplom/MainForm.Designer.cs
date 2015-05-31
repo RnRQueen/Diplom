@@ -40,41 +40,61 @@
             // 
             // btnDB
             // 
-            this.btnDB.Location = new System.Drawing.Point(47, 50);
+            this.btnDB.Font = new System.Drawing.Font("Buxton Sketch", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnDB.Image = global::Diplom.Properties.Resources.w48h481337349837Database;
+            this.btnDB.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnDB.Location = new System.Drawing.Point(12, 12);
+            this.btnDB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDB.Name = "btnDB";
-            this.btnDB.Size = new System.Drawing.Size(149, 45);
+            this.btnDB.Size = new System.Drawing.Size(89, 86);
             this.btnDB.TabIndex = 0;
-            this.btnDB.Text = "БАЗА ДАННЫХ";
+            this.btnDB.Text = "База данных";
+            this.btnDB.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnDB.UseVisualStyleBackColor = true;
             this.btnDB.Click += new System.EventHandler(this.btnDB_Click);
             // 
             // btnAccaunts
             // 
-            this.btnAccaunts.Location = new System.Drawing.Point(47, 126);
+            this.btnAccaunts.Font = new System.Drawing.Font("Buxton Sketch", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnAccaunts.Image = global::Diplom.Properties.Resources.users;
+            this.btnAccaunts.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnAccaunts.Location = new System.Drawing.Point(124, 12);
+            this.btnAccaunts.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAccaunts.Name = "btnAccaunts";
-            this.btnAccaunts.Size = new System.Drawing.Size(149, 46);
+            this.btnAccaunts.Size = new System.Drawing.Size(88, 86);
             this.btnAccaunts.TabIndex = 1;
             this.btnAccaunts.Text = "Аккаунты";
+            this.btnAccaunts.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAccaunts.UseVisualStyleBackColor = true;
             this.btnAccaunts.Click += new System.EventHandler(this.btnAccaunts_Click);
             // 
             // btnExcelExport
             // 
-            this.btnExcelExport.Location = new System.Drawing.Point(304, 51);
+            this.btnExcelExport.Font = new System.Drawing.Font("Buxton Sketch", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnExcelExport.Image = global::Diplom.Properties.Resources._6a6822a3_b4a6_45fa_80c1_94a56f2ecee6;
+            this.btnExcelExport.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnExcelExport.Location = new System.Drawing.Point(654, 12);
+            this.btnExcelExport.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExcelExport.Name = "btnExcelExport";
-            this.btnExcelExport.Size = new System.Drawing.Size(169, 45);
+            this.btnExcelExport.Size = new System.Drawing.Size(105, 95);
             this.btnExcelExport.TabIndex = 2;
             this.btnExcelExport.Text = "Экспорт в Excel";
+            this.btnExcelExport.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnExcelExport.UseVisualStyleBackColor = true;
             this.btnExcelExport.Click += new System.EventHandler(this.btnExcelExport_Click);
             // 
             // btnExcelImport
             // 
-            this.btnExcelImport.Location = new System.Drawing.Point(304, 129);
+            this.btnExcelImport.Font = new System.Drawing.Font("Buxton Sketch", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnExcelImport.Image = global::Diplom.Properties.Resources._3a023987_f999_4243_8725_f08e9fa31905;
+            this.btnExcelImport.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnExcelImport.Location = new System.Drawing.Point(780, 12);
+            this.btnExcelImport.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExcelImport.Name = "btnExcelImport";
-            this.btnExcelImport.Size = new System.Drawing.Size(169, 43);
+            this.btnExcelImport.Size = new System.Drawing.Size(99, 95);
             this.btnExcelImport.TabIndex = 3;
             this.btnExcelImport.Text = "Импорт из Excel";
+            this.btnExcelImport.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnExcelImport.UseVisualStyleBackColor = true;
             this.btnExcelImport.Click += new System.EventHandler(this.btnExcelImport_Click);
             // 
@@ -84,35 +104,50 @@
             // 
             // btnAddAnAd
             // 
-            this.btnAddAnAd.Location = new System.Drawing.Point(555, 51);
+            this.btnAddAnAd.Font = new System.Drawing.Font("Buxton Sketch", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAnAd.Image = global::Diplom.Properties.Resources.Ok;
+            this.btnAddAnAd.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnAddAnAd.Location = new System.Drawing.Point(418, 12);
+            this.btnAddAnAd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAddAnAd.Name = "btnAddAnAd";
-            this.btnAddAnAd.Size = new System.Drawing.Size(155, 44);
+            this.btnAddAnAd.Size = new System.Drawing.Size(99, 95);
             this.btnAddAnAd.TabIndex = 4;
             this.btnAddAnAd.Text = "Разместить объявление";
+            this.btnAddAnAd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAddAnAd.UseVisualStyleBackColor = true;
             // 
             // btnGetList
             // 
-            this.btnGetList.Location = new System.Drawing.Point(555, 126);
+            this.btnGetList.Font = new System.Drawing.Font("Buxton Sketch", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnGetList.Image = global::Diplom.Properties.Resources.download;
+            this.btnGetList.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnGetList.Location = new System.Drawing.Point(533, 12);
+            this.btnGetList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnGetList.Name = "btnGetList";
-            this.btnGetList.Size = new System.Drawing.Size(155, 46);
+            this.btnGetList.Size = new System.Drawing.Size(105, 95);
             this.btnGetList.TabIndex = 5;
             this.btnGetList.Text = "Получить список объявлений";
+            this.btnGetList.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnGetList.UseVisualStyleBackColor = true;
             this.btnGetList.Click += new System.EventHandler(this.btnGetList_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(795, 566);
+            this.ClientSize = new System.Drawing.Size(923, 555);
             this.Controls.Add(this.btnGetList);
             this.Controls.Add(this.btnAddAnAd);
             this.Controls.Add(this.btnExcelImport);
             this.Controls.Add(this.btnExcelExport);
             this.Controls.Add(this.btnAccaunts);
             this.Controls.Add(this.btnDB);
+            this.Font = new System.Drawing.Font("Mistral", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Главное окно";
             this.ResumeLayout(false);
