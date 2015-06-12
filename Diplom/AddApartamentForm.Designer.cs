@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,6 +64,9 @@
             this.tbComments = new System.Windows.Forms.TextBox();
             this.nudArea = new System.Windows.Forms.NumericUpDown();
             this.btnOK = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.btnSetImage = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudFloor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumFloor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumRooms)).BeginInit();
@@ -350,18 +354,44 @@
             // btnOK
             // 
             this.btnOK.Image = global::Diplom.Properties.Resources.button_ok;
-            this.btnOK.Location = new System.Drawing.Point(434, 533);
+            this.btnOK.Location = new System.Drawing.Point(801, 520);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(51, 29);
             this.btnOK.TabIndex = 37;
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(559, 20);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(35, 13);
+            this.label18.TabIndex = 39;
+            this.label18.Text = "Фото";
+            // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // btnSetImage
+            // 
+            this.btnSetImage.Location = new System.Drawing.Point(691, 15);
+            this.btnSetImage.Name = "btnSetImage";
+            this.btnSetImage.Size = new System.Drawing.Size(161, 23);
+            this.btnSetImage.TabIndex = 40;
+            this.btnSetImage.Text = "Добавить изображение";
+            this.btnSetImage.UseVisualStyleBackColor = true;
+            // 
             // AddApartamentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 574);
+            this.ClientSize = new System.Drawing.Size(919, 570);
+            this.Controls.Add(this.btnSetImage);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.nudArea);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.tbComments);
@@ -446,5 +476,8 @@
         private System.Windows.Forms.TextBox tbComments;
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.NumericUpDown nudArea;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Button btnSetImage;
     }
 }

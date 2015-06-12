@@ -93,7 +93,7 @@ namespace Diplom
         {
             if (cbType.SelectedIndex < 0)
             {
-                MessageBox.Show("..!.", ".!..", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ошибка!", "Выберите тип объекта!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             DBHelper.Context.Apartaments.Add(
@@ -115,7 +115,9 @@ namespace Diplom
                   Metro = cbMetro.SelectedItem.ToString(),
                   MetroLine = cbMetroLine.SelectedItem.ToString(),
                   Transport = tbTransport.Text,
-                  Comment = tbComments.Text
+                  Comment = tbComments.Text,
+                  
+                  
                   });
             DBHelper.Context.SaveChanges();
             Close();
